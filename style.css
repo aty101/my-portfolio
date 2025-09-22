@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+  
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav-links li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero-section, .projects-section,.projects-section {
+    text-align: center;
+    padding: 40px;
+}
+.hero-section p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero-section button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-weight: bold;
+}
+.hero-section *{
+    margin-bottom: 20px;
+}
+.about-section{
+    text-align: center;
+    padding: 40px;
+}
+.about-section p {
+    width: 75%;
+    margin: auto;
+}
+header,.hero-section{
+    background-color: #fcfbfb;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+hr{
+    width: 75%;
+    margin: auto;
+    opacity: 0.5;
+}
+
+.about-section *,.projects-section *{
+    margin-bottom: 10px;
+}
